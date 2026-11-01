@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="0.55" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef6fb"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b1f3a" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="640" height="640" fill="url(#bg)"/>
+  <circle cx="520" cy="110" r="190" fill="#ffffff" opacity=".07"/>
+  <circle cx="90" cy="560" r="170" fill="#ffffff" opacity=".06"/>
+
+  <!-- document -->
+  <g filter="url(#sh)" transform="rotate(-6 320 330)">
+    <path d="M200 140 h190 l70 70 v260 a24 24 0 0 1 -24 24 h-236 a24 24 0 0 1 -24 -24 v-306 a24 24 0 0 1 24 -24z" fill="url(#paper)"/>
+    <path d="M390 140 v46 a24 24 0 0 0 24 24 h46z" fill="#cfe7f0"/>
+    <!-- photo -->
+    <circle cx="246" cy="214" r="36" fill="#0e7490"/>
+    <circle cx="246" cy="203" r="13" fill="#ffffff"/>
+    <path d="M222 238 a24 20 0 0 1 48 0z" fill="#ffffff"/>
+    <!-- name lines -->
+    <rect x="298" y="190" width="92" height="16" rx="8" fill="#0f2747"/>
+    <rect x="298" y="220" width="62" height="12" rx="6" fill="#14b8a6"/>
+    <!-- body lines -->
+    <rect x="212" y="282" width="210" height="11" rx="5.5" fill="#c4d3e0"/>
+    <rect x="212" y="306" width="180" height="11" rx="5.5" fill="#c4d3e0"/>
+    <rect x="212" y="330" width="198" height="11" rx="5.5" fill="#c4d3e0"/>
+    <rect x="212" y="370" width="120" height="13" rx="6.5" fill="#0e7490"/>
+    <rect x="212" y="396" width="190" height="11" rx="5.5" fill="#c4d3e0"/>
+    <rect x="212" y="420" width="150" height="11" rx="5.5" fill="#c4d3e0"/>
+  </g>
+
+  <!-- nursing badge -->
+  <g filter="url(#sh)">
+    <circle cx="432" cy="452" r="74" fill="#ffffff"/>
+    <circle cx="432" cy="452" r="62" fill="#10b981"/>
+    <rect x="417" y="414" width="30" height="76" rx="7" fill="#ffffff"/>
+    <rect x="394" y="437" width="76" height="30" rx="7" fill="#ffffff"/>
+  </g>
+</svg>

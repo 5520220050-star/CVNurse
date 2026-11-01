@@ -1,0 +1,7 @@
+{
+  "name": "cv-builder-bot",
+  "private": true,
+  "type": "module",
+  "scripts": { "deploy": "tgcloud push", "status": "tgcloud status" },
+  "devDependencies": { "@tgcloud/cli": "latest" }
+}

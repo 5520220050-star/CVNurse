@@ -1,0 +1,4 @@
+{
+  // Mini App front-end served at https://app<id>.tgcloud.ai/
+  "static": { "source": "public", "spa": false }
+}
